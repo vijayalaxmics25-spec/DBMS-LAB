@@ -1,6 +1,5 @@
-show databases;
-use vijayalakshmi;
-
+create database Supplier;
+use Supplier;
 create table SUPPLIERS(sid integer(5) primary key, sname varchar(20), city varchar(20));
 desc SUPPLIERS;
 insert into SUPPLIERS values(10001,'acme widget','bangolore');
