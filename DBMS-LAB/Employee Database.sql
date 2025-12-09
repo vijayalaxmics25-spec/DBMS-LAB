@@ -1,4 +1,5 @@
-use vijayalakshmi;
+create database Employee;
+use Employee;
 CREATE TABLE dept (
 deptno decimal(2,0) primary key,
 dname varchar(14) default NULL,
