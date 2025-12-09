@@ -1,7 +1,4 @@
-show databases;
-create database if not exists vijayalakshmi;
-show databases;
-use vijayalakshmi;
+use Bank;
 create table branch(
 Branch_name varchar(30),
 Branch_city varchar(25),
