@@ -1,5 +1,5 @@
-use vijayalakshmi;
-
+create database Insurance;
+use Insurance;
 create table person (driver_id varchar(10),
 name varchar(20), address varchar(30), primary key(driver_id));
 desc person;
