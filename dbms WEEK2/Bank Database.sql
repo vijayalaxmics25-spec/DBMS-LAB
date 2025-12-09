@@ -1,3 +1,4 @@
+create database Bank;
 use Bank;
 create table branch(
 Branch_name varchar(30),
